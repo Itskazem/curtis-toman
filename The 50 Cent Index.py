@@ -29,7 +29,7 @@ except ImportError:
     }
 
 # --- تنظیمات تلگرام ---
-BOT_TOKEN = '8522259890:AAFFLxm00KwaDSun6Khd_HuVQdjUollgPKw'
+BOT_TOKEN = 'BOT_TOKEN'
 CHANNEL_ID = '@CurtisToman'
 GROUP_ID = '-1001970938339'
 
@@ -261,4 +261,5 @@ if __name__ == "__main__":
                 send_backdoor_response(BOT_TOKEN, ADMIN_USER_ID, admin_msg)
                 update_log("Admin Access: Backdoor Used", "warning")
             
+
             time.sleep(1)
